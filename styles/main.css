@@ -1,0 +1,58 @@
+html {
+    height: 100%;
+}
+
+html, body {
+    height: 100%;
+    font-family: 
+    -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Helvetica Neue", Arial, sans-serif;
+    
+
+}
+
+body {
+    background-image: url("../images/bg.jpg");
+    background-attachment : fixed;
+    background-size: cover;
+    
+}
+
+h1 {
+    font-family: 'Griffy', cursive;
+    font-size: 56px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 2px 2px #000000;
+}
+
+
+div[id="blog"]{
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 20px solid #FFFFFF;
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    padding: 2rem;
+}
+
+div[id="data"]{
+    color: blue;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+div[id="under"]{
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 600%;
+    text-shadow: 2px 2px #000000;
+}
+
+p.Q{
+    border-left: 4px solid grey;
+    padding-left: 1rem;
+}
